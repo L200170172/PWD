@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Kalkulator</title>
+        <script language='javascript'>
+        function tambah(){
+            nilai_a=document.myform.a.value;
+            nilai_b=document.myform.b.value;
+            tambah=parseInt(nilai_a)+parseInt(nilai_b);
+            document.myform.hasil.value=tambah;
+        }function kurang(){
+            nilai_a=document.myform.a.value;
+            nilai_b=document.myform.b.value;
+            kurang=nilai_a-nilai_b;
+            document.myform.hasil.value=kurang;
+        }function kali(){
+            nilai_a=document.myform.a.value;
+            nilai_b=document.myform.b.value;
+            kali=nilai_a*nilai_b;
+            document.myform.hasil.value=kali;
+        }function bagi(){
+            nilai_a=document.myform.a.value;
+            nilai_b=document.myform.b.value;
+            bagi=nilai_a/nilai_b;
+            document.myform.hasil.value=bagi;
+        }
+        </script>
+    </head>
+    <body>
+        <form name='myform'>
+            <h3>Kalkulator Sederhana</h3>
+            Nilai A = <input type='text' name='a' size='5'></br>
+            Nilai B = <input type='text' name='b' size='5'></br></br>
+            <input type='button' name='aksi' value='+' onclick='tambah()'>
+            <input type='button' name='aksi' value='-' onclick='kurang()'>
+            <input type='button' name='aksi' value='*' onclick='kali()'>
+            <input type='button' name='aksi' value='/' onclick='bagi()'></br></br>
+            <b>Hasil = </b><input type='text' name='hasil' size='5'></br>
+        </form>
+    </body>
+</html>
