@@ -1,0 +1,92 @@
+body {
+width: 100%;
+font-family: Verdana,sans-serif;
+}
+
+.color{
+	background-color: #E3E3FF;
+	background-size: 100%;
+}
+
+.logo,
+.navigasi,
+.konten,
+.footer {
+margin-bottom: 5px;
+padding: 15px 0;
+}
+
+.logo {
+width: 300px;
+height: 40px;
+background: #DFFFA8;
+}
+
+.navigasi {
+width: 75%;
+height: 100;
+background: #C4FFDA;
+text-align: center;
+}
+.konten {
+width: 60%;
+border:10px;
+border-color:#C4FFDA;
+}
+.footer {
+width: 75%;
+background: #C4FFDA;
+}
+
+.padding_this{
+padding: 50px;}
+
+.form {
+margin-top: 150px;
+width: 30%;
+height: 100;
+background: transparent;
+text-align: center;
+top : 50%;
+left : 50%;
+border : 5px solid black;
+border-radius : 10px;
+}
+
+.radius{
+  border-radius: 10px;
+}
+
+.back{
+  background-image: url(buku.jpg);
+  background-size: 100%;
+  center;
+}
+.masuk {
+  margin-top: -20px;
+}
+
+.col_about {
+    text-align: center;
+    font-family: Viga;
+    font-size: 32px;
+
+}
+.col_about hr{
+
+    width: 250px;
+    border-top: 3px solid #999999;
+}
+.row_about {
+
+    text-align: center;
+}
+.nama_about {
+
+    font-family: Viga;
+}
+
+.desc {
+	text-align: = justify;
+    font-family: Viga;
+}

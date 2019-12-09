@@ -1,0 +1,139 @@
+body {
+width: 100%;
+font-family: Verdana,sans-serif;
+}
+
+.color{
+  background-color: #E3E3FF;
+  background-size: 100%;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.masuk {
+    color: white;
+}
+
+.buat {
+    margin-left: 20px;
+}
+
+.mySlides {display:none}
+
+main {
+display: flex;
+}
+
+.padding_this{
+padding: 5px;
+}
+
+.logo,
+.navigasi,
+.konten,
+.footer {
+margin-bottom: 5px;
+padding: 15px 0;
+}
+
+.logo {
+width: 300px;
+height: 40px;
+background: #DFFFA8;
+}
+
+.navigasi {
+width: 75%;
+height: 100;
+background: #C4FFDA;
+text-align: center;
+}
+.konten {
+width: 60%;
+border:10px;
+border-color:#C4FFDA;
+}
+.footer {
+width: 75%;
+background: #C4FFDA;
+}
+
+.navigasi ul{
+padding: 0;
+list-style: none;
+display: inline-block;
+margin: 0;
+}
+.navigasi li{
+float: left;
+margin: 0 10px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #C39D5E;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #272822;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #C39D5E;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+form {
+      width:500px;
+      margin:40px auto;
+    }
+    .search {
+      padding:8px 15px;
+      background:rgba(50, 50, 50, 0.2);
+      border:0px solid #dbdbdb;
+    }
+    .button {
+      position:relative;
+      padding:6px 15px;
+      left:-8px;
+      border:2px solid #272822;
+      background-color:#272822;
+      color:#C39D5E;
+    }
+    .button:hover  {
+      background-color:#fafafa;
+      color:#207cca;
+    }
